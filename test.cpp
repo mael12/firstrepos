@@ -2,4 +2,5 @@
 
 int main(){
     cout << "michel";
+    return 0;
 }
