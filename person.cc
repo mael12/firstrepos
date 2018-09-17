@@ -1,6 +1,6 @@
 //definitions
-#include person.h
+#include "person.h"
 
-int nb_char_firstname (person){
-    return person.firstname.size();
+int nb_char_firstname (person p){
+    return p.firstname.size();
 }

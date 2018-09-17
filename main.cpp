@@ -4,8 +4,8 @@
 using namespace std;
 
 int main(){
-    person p{"mael", "brule", 12};
-    cout << "There are " << nb_char_firstname(p) << " in person p's firstname." << endl;
+    person p;
+    cout << "Enter a first name" << endl;
+    cin >> p.firstname;
+    cout << "There are " << nb_char_firstname(p) << " char(s) in the firstname." << endl;
 }
-
-
