@@ -7,3 +7,5 @@ struct person {
     string lastname;
     int age;
 };
+
+int nb_char_firstname (person);
